@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnológico XYZ</title>
+    <style>
+      }
+
+
+            .header .nav-links a {
+                margin: 0 15px;
+                color: black;
+                background-color: white;
+                padding: 10px 20px;
+                border-radius: 5px;
+                text-decoration: none;
+                font-weight: bold;
+            }
+            .header .search-bar {
+                display: flex;
+                align-items: center;
+            }
+            .header .search-bar input {
+                padding: 5px;
+                border-radius: 5px 0 0 5px;
+                border: none;
+                outline: none;
+            }
+            
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa;
+            color: #333;
+        }
+        header {
+            background-color: #01579b;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #0288d1;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #0277bd;
+        }
+        .container {
+            padding: 20px;
+        }
+        .info {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #01579b;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .search-bar {
+            margin-top: 20px;
+        }
+        .search-bar input[type="text"] {
+            width: 80%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        .search-bar input[type="submit"] {
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            background-color: #0288d1;
+            color: white;
+            cursor: pointer;
+        }
+        .search-bar input[type="submit"]:hover {
+            background-color: #0277bd;
+        }
+        .tech-images img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        .tech-images {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tecnológico Qro</h1>
+    </header>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#carreras">Carreras</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="container">
+        <section id="inicio" class="info">
+            <h2>Bienvenidos al Tecnológico Qro</h2>
+            <p>El Tecnológico Qro ofrece una educación de calidad con programas enfocados en tecnología y ciencias aplicadas. Nuestro objetivo es formar profesionales competentes y comprometidos con el desarrollo de la sociedad.</p>
+        </section>
+        <section class="tech-images">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-peLmNgueZ5aGpbx7DrVamz8xVYmN8whKxjfiKvRKvOZ-38zYl8NlPZMK&s=10" alt="Tecnología 1"800x300>
+        </section>
+        <section class="search-bar">
+            <h2>Buscar más información</h2>
+            <form action="#">
+                <input type="text" placeholder="Buscar...">
+                <input type="submit" value="Buscar">
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Tecnológico Qro. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
